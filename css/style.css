@@ -16,6 +16,9 @@ header, #footer-bottom {
 }
 
 
+.custom-bg-ft {
+    color: #1abc9c;
+}
 
 
 
@@ -76,3 +79,20 @@ header, #footer-bottom {
   }
 
 /* /content stellina  */
+
+
+
+
+/* content social  */
+
+.content-social {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /content social  */
