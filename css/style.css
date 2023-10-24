@@ -1,11 +1,24 @@
-header, section._ft-bottom {
+header, #footer-bottom {
     background-color: #2c3e50;
 }
 
-section._start, section._about {
+#start, #about {
     background-color: #1abc9c;
 }
 
-section._ft-up {
+#footer-up {
     background-color: #3a546d;
 }
+
+
+/* content image   */
+.cnt-image {
+    overflow: hidden;
+    border: 1.25rem;
+}
+
+.cnt-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* content image   */
