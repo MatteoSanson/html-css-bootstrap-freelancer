@@ -14,7 +14,7 @@ header, #footer-bottom {
 /* content image   */
 .cnt-image {
     overflow: hidden;
-    border: 1.25rem;
+    border-radius: 1.25rem;
 }
 
 .cnt-image img {
@@ -22,3 +22,13 @@ header, #footer-bottom {
     height: auto;
 }
 /* content image   */
+
+
+
+
+
+
+/* test  */
+
+
+/* /test  */
