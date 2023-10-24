@@ -11,6 +11,14 @@ header, #footer-bottom {
 }
 
 
+.custom-button {
+    background-color: #1abc9c;
+}
+
+
+
+
+
 /* content image   */
 .cnt-image {
     overflow: hidden;
@@ -36,7 +44,7 @@ header, #footer-bottom {
     position: absolute;
     top: 50%;
     width: 30%;
-    height: .25rem;
+    height: .1875rem;
     border-radius: 1.25rem;
     background-color: white;
     transform: translateY(-50%);
@@ -66,8 +74,5 @@ header, #footer-bottom {
   .nera::after {
     background-color: black;
   }
-
-
-
 
 /* /content stellina  */
