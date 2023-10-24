@@ -41,12 +41,33 @@ header, #footer-bottom {
     background-color: white;
     transform: translateY(-50%);
   }
-  
+
   .stellina::before {
     left: 20px;
   }
-  
+
   .stellina::after {
     right: 20px;
   }
+
+
+  .col-lg-4 .stellina::before {
+    left: 25px;
+  }
+
+  .col-lg-4 .stellina::after {
+    right: 25px;
+  }
+
+
+
+  /* nera  */
+  .nera::before,
+  .nera::after {
+    background-color: black;
+  }
+
+
+
+
 /* /content stellina  */
