@@ -25,10 +25,28 @@ header, #footer-bottom {
 
 
 
-
-
-
-/* test  */
-
-
-/* /test  */
+/* content stellina */
+  .stellina {
+    position: relative;
+  }
+  
+  .stellina::before,
+  .stellina::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: .25rem;
+    border-radius: 1.25rem;
+    background-color: white;
+    transform: translateY(-50%);
+  }
+  
+  .stellina::before {
+    left: 20px;
+  }
+  
+  .stellina::after {
+    right: 20px;
+  }
+/* /content stellina  */
