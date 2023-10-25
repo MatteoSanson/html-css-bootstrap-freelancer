@@ -49,7 +49,7 @@ header, #footer-bottom {
     width: 30%;
     height: .1875rem;
     border-radius: 1.25rem;
-    background-color: white;
+    background-color: currentColor;
     transform: translateY(-50%);
   }
 
@@ -68,14 +68,6 @@ header, #footer-bottom {
 
   .col-lg-4 .stellina::after {
     right: 25px;
-  }
-
-
-
-  /* nera  */
-  .nera::before,
-  .nera::after {
-    background-color: black;
   }
 
 /* /content stellina  */
